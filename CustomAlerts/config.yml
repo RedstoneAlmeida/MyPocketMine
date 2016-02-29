@@ -1,0 +1,89 @@
+﻿---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: true
+  message: "&7§o> §e§lSlicePrision §r§7< §o§f-§e Survival! §f0.13.0 oficial§r "
+OutdatedClient:
+  custom: true
+  message: "&cSeu jogo está desatualizado!"
+OutdatedServer:
+  custom: true
+  message: "&cOops! O Servidor está desatualizado!"
+WhitelistedServer:
+  custom: true
+  message: "&c&e{PLAYER} §cServer está em Manutenção \n§cPlayers Online \n§e[{TOTALPLAYERS}/{MAXPLAYERS}]"
+FullServer:
+  custom: true
+  message: "&e{PLAYER}&b, Server Cheio! Compre VIP ou Tente Denovo&c[{TOTALPLAYERS}/{MAXPLAYERS}]&b!\n&l&dTente Denovo! :)"
+FirstJoin:
+  enable: true
+  message: "&a{PLAYER}&b entrou pela primeira vez."
+Join:
+  hide: true
+  custom: true
+  message: "&2[{TIME}] &a{PLAYER}&e joined the game."
+Quit:
+  hide: true
+  custom: false
+  message: "&4[{TIME}] &c{PLAYER}&e has left the game"
+WorldChange:
+  enable: false
+  message: "&2[{TIME}] &a{PLAYER}&e moved from &c{ORIGIN}&e to &a{TARGET}"
+Death:
+  hide: true
+  custom: true
+  message: "&c{PLAYER} died"
+  death-contact-message:
+    hide: true
+    custom: true
+    message: "&cOops! {PLAYER} was killed by {BLOCK}"
+  kill-message:
+    hide: true
+    custom: true
+    message: "&9{PLAYER} &ewas killed by &c{KILLER}"
+  death-projectile-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} was killed by {KILLER} by arrow"
+  death-suffocation-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} suffocated"
+  death-fall-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} fell from a high place"
+  death-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} went up in flames"
+  death-on-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} burned"
+  death-lava-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} tried to swim in lava"
+  death-drowning-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} drowned"
+  death-explosion-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} exploded"
+  death-void-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} fell into the void"
+  death-suicide-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} committed suicide"
+  death-magic-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} was killed by a spell"
+...

@@ -1,0 +1,22 @@
+name: LaunchPad
+main: hoyinm14mc\launchpad\LaunchPad
+api: ["1.12.0", "1.13.0", "2.0.0"]
+version: 1.0.1
+author: hoyinm14mc
+
+commands:
+  launchpad:
+    usage: /launchpad create|destroy|version
+    permission: launchpad.command
+    description: LaunchPad command
+    aliases: ["lpad", "launchp"]
+
+permissions:
+  launchpad.command:
+    default: op
+  launchpad.use:
+    default: true
+  launchpad.create:
+    default: op
+  launchpad.destroy:
+    default: op

@@ -1,0 +1,7 @@
+---
+MaxPlotsPerPlayer: 2
+ClaimPrice: 50
+ClearPrice: 0
+DisposePrice: -50
+ResetPrice: -50
+...
